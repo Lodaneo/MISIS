@@ -1,7 +1,14 @@
-name = str(input('Ф.И.О:')).strip().upper()
-div = name.split()
-print(f'Инициалы: ',end = '')
-for c in range(len(div)):
-    sep = (div[c])
-    print(f'{sep[0]}',end = ' ') 
-print(f'\nДлина(Символов):{len(name)}')
+
+name = input('Ф.И.О: ').strip().upper()
+
+parts = name.split()
+
+normalized_name = " ".join(parts)
+
+print('Iniciais: ', end='')
+for part in parts:
+    print(part[0], end=' ')
+
+symbols_count = len(normalized_name)
+print(f'\nQuantidade de caracteres (com espaços entre nomes): {symbols_count}')
+ 
