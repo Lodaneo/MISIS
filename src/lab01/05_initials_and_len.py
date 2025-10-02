@@ -10,5 +10,4 @@ for part in parts:
     print(part[0], end=' ')
 
 symbols_count = len(normalized_name)
-print(f'\nQuantidade de caracteres (com espaços entre nomes): {symbols_count}')
- 
+print(f'\nQuantidade: {symbols_count}')
