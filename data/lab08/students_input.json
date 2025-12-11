@@ -1,0 +1,26 @@
+[
+  {
+    "fio": "Rebeca Paulo Pedro",
+    "birthdate": "1982-08-23",
+    "group": "БИВТ-6",
+    "gpa": 4.2
+  },
+  {
+    "fio": "Leandro Cadifete",
+    "birthdate": "1997-11-30",
+    "group": "A-50",
+    "gpa": 4.0
+  },
+  {
+    "fio": "Быстров Андрей Игоревич",
+    "birthdate": "2002-07-15",
+    "group": "БИВТ-5",
+    "gpa": 2.0
+  },
+  {
+    "fio": "Carlos João Faustino",
+    "birthdate": "2000-07-15",
+    "group": "БИВТ-7",
+    "gpa": 5.0
+  }
+]
